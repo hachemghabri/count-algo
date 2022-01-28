@@ -1,0 +1,34 @@
+ALGORITHM algorithm_name
+VAR
+  v1,v2:FLOAT
+BEGIN
+
+
+ PROCEDURE aee(var v1,v2:FLOAT)
+ BEGIN
+ var ps:INTEGER
+
+
+ read(v1)
+ read(v2)
+ ps=v1*v2
+ if(ps=0)
+ Write('orthogonax')
+ END
+ FUNCTION orth(v1,v2:FLOAT) : FLOAT
+ VAR
+ ps:FLOAT
+ BEGIN
+   ps=v1*V2*
+   RETURN ps ;
+ END
+
+
+ read(v1)
+ read(v2)
+ aee(v1,v2)
+ if (orth(v1,v2)=0) 
+ Write('orthogonax')
+
+
+END
