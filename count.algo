@@ -1,0 +1,21 @@
+ALGORITHM count
+VAR
+    nm,nc,nv:INTEGER
+BEGIN
+   Write('donner une phrase')
+   read(ch)
+   nm=1 nc=0 nv=0
+   FOR i FROM 1 TO ch.length STEP 1  DO
+   nc=nc+1
+       if(ch[i]in ['e','y','a','o','u','i','E','Y','A','O','U','I']) THEN
+       nv=nv+1
+       END_IF
+       if(ch[i]=' ') THEN
+       nm=nm+1
+       END_IF
+
+   END_FOR
+   Write('nv',nv)
+   Write('nc',nc)
+   Write('nm',nm)
+END
